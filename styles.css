@@ -27,6 +27,16 @@ a, .btn{
 
 /* DESKTOP NAV */
 
+#desktop-nav, #hamburger-nav{
+    top: 0;
+    background-color:rgb(163, 163, 163);
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+    z-index: 1000;
+    color: aliceblue;
+}
+
 nav, .nav-links {
     display: flex;
 }
@@ -56,7 +66,8 @@ a:hover {
 }
 
 .logo {
-    font-size: 1.8rem;
+    font-size: 4rem;
+    font-style: italic;
 }
 
 .logo:hover {
@@ -141,6 +152,7 @@ a:hover {
 }
 
 /* SECTIONS */
+
 
 section {
     padding-top: 4vh;
@@ -320,7 +332,7 @@ section {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1,75rem;
+    font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
@@ -400,7 +412,7 @@ article .icon {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) ;
+    border: rgb(53, 53, 53)0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: rgb(190, 186, 186);
     margin: 2rem auto;
@@ -426,4 +438,35 @@ article .icon {
 
 .email-icon{
     height: 3rem;
+}
+
+/* Footer */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Design */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+}
+h1 {
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.content{
+    padding: 20px;
 }
