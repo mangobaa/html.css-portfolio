@@ -160,8 +160,7 @@ section {
     position: relative;
 }
 .profpic {
-    border-radius:12rem;
-    background-color: rgb(190, 186, 186);
+    border-radius: 10rem;
 }
 #profile {
     display: flex;
